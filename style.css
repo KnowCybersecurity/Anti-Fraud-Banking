@@ -1,4 +1,17 @@
-#Card, #CustomerSupport {
+#Card {
+    margin-right: 200px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 0px;
+    line-height: 0px;
+
+    border-style: solid;
+    background-image: url("mockup.jpg");
+    background-size: 100%;
+}
+
+#CustomerSupport {
     margin: 0px;
     padding: 0px;
     line-height: 0px;
