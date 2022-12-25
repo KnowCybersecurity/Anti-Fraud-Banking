@@ -5,6 +5,9 @@
     padding-left: 10px;
     padding-right: 0px;
     line-height: 0px;
+    
+    width: 350px;
+    max-width: 350px;
 
     border-style: solid;
     background-image: url("mockup.jpg");
