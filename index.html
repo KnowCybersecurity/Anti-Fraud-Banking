@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anti-Fraud Bank Card System (INCOMPLETE)</title>
+    <title>Random Credit Card Number Authenticator</title>
     
     <link rel="stylesheet" href="style.css">
 </head>
@@ -28,7 +28,15 @@
 
     <br>
 
-    <h5 id="Timer"></h5>
+    <h5 id="Timer">10 seconds until a new card number is generated</h5>
+
+    <h3>Support</h3>
+    <div id="CustomerSupport">
+        <h5>Want to block your card? <a onclick="BlockCard()">Click <strong>here</strong></a></h5>
+        <h5>Want to unblock your card? <a onclick="UnblockCard()">Click <strong>here</strong></a></h5>
+        <h5>Want to generate a new card number? <a onclick="GenerateNewCardNumber()">Click here</a></h5>
+        <h5>Want to generate a new CVV? <a onclick="GenerateNewCVV()">Click here</a></h5>
+    </div>
 
     <script src="script.js"></script>
 </body>
