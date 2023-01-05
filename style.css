@@ -26,3 +26,15 @@
     line-height: 0px;
     margin-left: 105px;
 }
+
+#Header {
+    line-height: 0px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    background: radial-gradient(circle, rgb(129, 143, 216) 0%, rgb(33, 90, 212) 100%);    
+}
