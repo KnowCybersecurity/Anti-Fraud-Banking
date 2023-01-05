@@ -14,14 +14,14 @@ function UnblockCard(){
 }
 
 function GenerateNewCardNumber(){
-    TimeLeft = 8;
     RandomCardNumber();
+    TimeLeft = 8;
 }
 
 function GenerateNewCVV(){
     CVV = RandomCVV();
     ExpCVV(Exp, CVV);
-    
+    TimeLeft = 8;
 }
 
 function RandomCardNumber(){
