@@ -4,9 +4,13 @@ function BlockCard(){
 }
 
 function UnblockCard(){
-    Status = "ACTIVE";
-    RandomCardNumber();
-    TimeLeft = 8;
+    if (Status != "ACTIVE"){
+        Status = "ACTIVE";
+        RandomCardNumber();
+        TimeLeft = 8;
+    } else {
+        window.alert("Your card is already active");
+    }
 }
 
 function GenerateNewCardNumber(){
