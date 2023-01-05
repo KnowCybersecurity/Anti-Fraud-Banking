@@ -21,7 +21,6 @@ function GenerateNewCardNumber(){
 function GenerateNewCVV(){
     CVV = RandomCVV();
     ExpCVV(Exp, CVV);
-    TimeLeft = 8;
 }
 
 function RandomCardNumber(){
