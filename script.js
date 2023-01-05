@@ -14,8 +14,12 @@ function UnblockCard(){
 }
 
 function GenerateNewCardNumber(){
-    RandomCardNumber();
-    TimeLeft = 8;
+    if (Status == "ACTIVE"){
+        RandomCardNumber();
+        TimeLeft = 8;
+    } else {
+        window.alert("Your card isn't active")
+    }
 }
 
 function GenerateNewCVV(){
